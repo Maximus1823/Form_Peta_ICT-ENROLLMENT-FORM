@@ -107,18 +107,18 @@
                 <table>
                     <tr>
                         <td>First name:</td>
-                        <td><input type="text" placeholder="First name" name="first_name"></td>
+                        <td><input type="text" placeholder="First name" name="first_name" required></td>
                         <td>Last name:</td>
-                        <td><input type="text" placeholder="Last name" name="last_name"></td>
+                        <td><input type="text" placeholder="Last name" name="last_name" required></td>
                     </tr>
                     <tr>
                         <td>School Year:</td>
-                        <td colspan="3"><input type="text" name="school_year"></td>
+                        <td colspan="3"><input type="text" name="school_year" required></td>
                     </tr>
                     <tr>
                         <td>Grade Level to Enroll:</td>
                         <td colspan="3">
-                            <select name="grade_level">
+                            <select name="grade_level" required>
                                 <option value="grade_7">Grade 7</option>
                                 <option value="grade_8">Grade 8</option>
                                 <option value="grade_9">Grade 9</option>
@@ -128,54 +128,52 @@
                     </tr>
                     <tr>
                         <td>LRN (Learner's Reference Number):</td>
-                        <td colspan="3"><input type="text" name="lrn"></td>
+                        <td colspan="3"><input type="text" name="lrn" required></td>
                     </tr>
                     <tr>
                         <td>Father's Name:</td>
-                        <td colspan="3"><input type="text" name="father_name"></td>
+                        <td colspan="3"><input type="text" name="father_name" required></td>
                     </tr>
                     <tr>
                         <td>Father's Mobile no.:</td>
-                        <td colspan="3"><input type="text" name="father_mobile_no"></td>
+                        <td colspan="3"><input type="text" name="father_mobile_no" required></td>
                     </tr>
                     <tr>
                         <td>Mother's Name:</td>
-                        <td colspan="3"><input type="text" name="mother_name"></td>
+                        <td colspan="3"><input type="text" name="mother_name" required></td>
                     </tr>
                     <tr>
                         <td>Mother's Mobile no.:</td>
-                        <td colspan="3"><input type="text" name="mother_mobile_no"></td>
+                        <td colspan="3"><input type="text" name="mother_mobile_no" required></td>
                     </tr>
                     <tr>
                         <td>Address:</td>
-                        <td colspan="3"><input type="text" name="personal_address"></td>
+                        <td colspan="3"><input type="text" name="personal_address" required></td>
                     </tr>
                     <tr>
                         <td>Gender:</td>
-                        <td colspan="3"><input type="radio" name="gender" value="male"> Male
+                        <td colspan="3" required ><input type="radio" name="gender" value="male"> Male
                             <input type="radio" name="gender" value="female"> Female</td>
                     </tr>
                     <tr>
                         <td>Email:</td>
-                        <td colspan="3"><input type="text" placeholder="Email" name="email"></td>
+                        <td colspan="3"><input type="text" placeholder="Email" name="email" required></td>
                     </tr>
                     <tr>
                         <td>Date of Birth:</td>
-                        <td colspan="3"><input type="date" name="dob"></td>
+                        <td colspan="3"><input type="date" name="dob" required></td>
                     </tr>
                     <tr>
                         <td>Mobile no.:</td>
-                        <td colspan="3"><input type="text" name="mobile_no"></td>
+                        <td colspan="3"><input type="text" name="mobile_no" required></td>
                     </tr>
                     <tr>
                         <td><sup>Birth Certificate:</sup></td>
-                        <td colspan="3"><input type="file" name="certificate"></td>
+                        <td colspan="3"><input type="file" name="certificate" required></td>
                     </tr>
                 </table>
-        </fieldset>
-        <fieldset>
         <h3>DECLARATION:</h3>
-        <p>I hereby declare that the above details which I have filled are correct and to the best of my knowledge. I ensure that the provided info is confidential</p>
+        <p>I hereby declare that the above details which I have filled are correct and to the best of my knowledge.</p>
         <br>
         <input type="checkbox" name="agree" required>I Agree
         <center>
