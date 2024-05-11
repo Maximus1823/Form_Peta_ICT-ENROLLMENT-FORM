@@ -17,7 +17,7 @@
         </header>
     <fieldset>
         <center>
-            <h1>Pasay City West HighSchool Enrollment</h1>
+            <h1>Pasay City West HighSchool</h1>
         </center>
         <img src="Download.jpeg" width="100" height="100">
         <img src="Download.jpeg" width="100" height="100" align="right">
@@ -28,16 +28,16 @@
         <h2>TRANSFER FORM</h2>
         <fieldset>
             <legend>Transfer Details</legend>
-        <form>
+        <form action= "https://formspree.io/f/mleqppdy" method="POST">
             <table>
             <tr>
                 <td>Current School:</td>
-                <td><input type="text" placeholder="Current School" name="current_school"></td>
+                <td><input type="text" placeholder="Current School" name="current_school" required></td>
             </tr>
             <tr>
                 <td>Grade Level to Transfer:</td>
                 <td>
-                    <select name="transfer_grade_level">
+                    <select name="transfer_grade_level" required>
                         <option value="grade_7">Grade 7</option>
                         <option value="grade_8">Grade 8</option>
                         <option value="grade_9">Grade 9</option>
@@ -47,19 +47,19 @@
             </tr>
             <tr>
                 <td>Reason for Transfer:</td>
-                <td><textarea name="transfer_reason" placeholder="Enter reason for transfer"></textarea></td>
+                <td><textarea name="transfer_reason" placeholder="Enter reason for transfer" required></textarea></td>
             </tr>
             <tr>
                 <td>Last School Year Attended:</td>
-                <td><input type="text" name="last_school_year"></td>
+                <td><input type="text" name="last_school_year" required></td>
             </tr>
             <tr>
                 <td>Previous School:</td>
-                <td><input type="text" placeholder="Previous School" name="previous_school"></td>
+                <td><input type="text" placeholder="Previous School" name="previous_school" required></td>
             </tr>
             <tr>
                 <td>Date of Transfer:</td>
-                <td><input type="date" name="transfer_date"></td>
+                <td><input type="date" name="transfer_date" required></td>
             </tr>
                 </table>
             </form>
