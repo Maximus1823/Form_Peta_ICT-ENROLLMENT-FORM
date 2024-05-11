@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Enrollment Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DEPED</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="enrollment.html">Enroll</a>
+            <a href="transfer.html">Transfer</a>
+        </nav>
+        </header>
+    <fieldset>
+        <center>
+            <h1>Pasay City West HighSchool Enrollment</h1>
+        </center>
+        <img src="Download.jpeg" width="100" height="100">
+        <img src="Download.jpeg" width="100" height="100" align="right">
+        <center><img src="deped.jpeg" width="600" height="200"></center>
+        <hr>
+        <marquee scrollamount="12" direction="left", style="color: #003077b7;"><img src="Ph.jpeg" width="30" height="30"> <b>We dream of Filipinos who passionately love their country and whose values and competencies enable them to realize their full potential and contribute meaningfully to building the nation. As a learner-centered public institution, the Department of Education continuously improves itself to better serve its stakeholders.</b><img src="Ph.jpeg" width="30" height="30"> </marquee>
+        <hr>
+        <h2>TRANSFER FORM</h2>
+        <fieldset>
+            <legend>Transfer Details</legend>
+        <form>
+            <table>
+            <tr>
+                <td>Current School:</td>
+                <td><input type="text" placeholder="Current School" name="current_school"></td>
+            </tr>
+            <tr>
+                <td>Grade Level to Transfer:</td>
+                <td>
+                    <select name="transfer_grade_level">
+                        <option value="grade_7">Grade 7</option>
+                        <option value="grade_8">Grade 8</option>
+                        <option value="grade_9">Grade 9</option>
+                        <option value="grade_10">Grade 10</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Reason for Transfer:</td>
+                <td><textarea name="transfer_reason" placeholder="Enter reason for transfer"></textarea></td>
+            </tr>
+            <tr>
+                <td>Last School Year Attended:</td>
+                <td><input type="text" name="last_school_year"></td>
+            </tr>
+            <tr>
+                <td>Previous School:</td>
+                <td><input type="text" placeholder="Previous School" name="previous_school"></td>
+            </tr>
+            <tr>
+                <td>Date of Transfer:</td>
+                <td><input type="date" name="transfer_date"></td>
+            </tr>
+                </table>
+            </form>
+        </fieldset>
+        
+        <h3>DECLARATION:</h3>
+        <p>I hereby declare that the above details which I have filled are correct and to the best of my knowledge.</p>
+        <br>
+        <input type="checkbox" name="agree" required>I Agree
+        <center>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </center>
+            </form>
+        </fieldset>
+        <hr>
+</body>
+</html>
