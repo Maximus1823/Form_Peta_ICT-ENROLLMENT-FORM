@@ -1,0 +1,128 @@
+body {
+    background-color: #e6f2ffea;
+    font-family: 'Roboto', Tahoma, Verdana, sans-serif;
+    margin: 20px;
+}
+
+fieldset {
+    margin: 0 auto;
+    width: 70%;
+    border: 2px solid #cce6ff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #96b5e2c7; 
+    color:  #005ce6;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    font-family: 'Roboto', Tahoma, Verdana, sans-serif;
+}
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #005ce675;
+}
+header h1 {
+    margin: 0; 
+    color: #005ce675;
+    font-family: 'Roboto', Tahoma, Verdana, sans-serif;
+}
+nav {
+    background-color: #96b5e2c7;
+    padding: 10px 0;
+    text-align: center;
+    display: y
+}
+nav a {
+    color: #cce6ff;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+nav a:hover {
+    background-color: #96b4e256;
+    transform: scale(1.1); 
+}
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #cce6ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #005ce6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0047b3;
+}
+
+input[type="reset"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #005ce6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    background-color: #0047b3;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #cce6ff;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+sup {
+    font-size: smaller;
+}
+
+td {
+    padding: 5px;
+}
+
+td[colspan="3"] {
+    padding: 5px;
+}
